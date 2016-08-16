@@ -51,7 +51,8 @@ public class MainServlet extends HttpServlet {
 			response.sendRedirect("main.jsp");
 		}
 		else{
-			response.sendRedirect("login.jsp");
+			//response.sendRedirect("login.jsp");
+			response.sendRedirect("loginfail.jsp");
 		}
 		//response.sendRedirect("refreshServlet");
 	}
